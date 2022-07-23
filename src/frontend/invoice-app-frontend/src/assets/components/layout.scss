@@ -1,0 +1,89 @@
+body{
+  background-color: $color-grey-background;
+  font-family: 'Spartan';
+}
+
+.container{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  //grid-template-rows: repeat(11, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  width: 85%;
+}
+.col-start-3_row-start-2{
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+.col-start-3-col-end-10_row-start-2{
+  grid-column-start: 3;
+  grid-column-end: 10;
+  grid-row-start: 2;
+}
+h1{
+  font-weight: 700;
+}
+.col-start-3_row-start-3{
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+.col-start-7_col-end-8_row-start-2{
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 2;
+}
+
+.col-start-9_col-end-10_row-start-2{
+  grid-column-start: 9;
+  grid-column-end: 10;
+  grid-row-start: 2;
+}
+
+.col-start-3_col-end-10_row-start-3{
+  grid-column-start: 3;
+  grid-column-end: 10;
+  grid-row-start: 3;
+}
+
+h3{
+  font-size:12px;
+}
+h1{
+  margin: 0;
+}
+#app{
+  display: flex;
+}
+body{
+  margin: 0;
+}
+.button-primary{
+  background-color: #7C5DFA;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.buttonContainer{
+  cursor: pointer;
+  width: 150px;
+  height: 48px;
+  display: flex;
+  img{
+    background-color: white;
+  }
+}
+.plusContainer{
+  width: 32px;
+  height: 32px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 20px;
+  svg{
+    align-self: center;
+  }
+}

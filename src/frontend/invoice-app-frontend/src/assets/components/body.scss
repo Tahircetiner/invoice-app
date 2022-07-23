@@ -1,0 +1,9 @@
+.content{
+  .hint{
+    font-size: 12px;
+    color: #888EB0;
+  }
+  h3::after{
+    content: url('~/src/assets/images/icon-arrow-down.svg');
+  }
+}
