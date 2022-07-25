@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-  margin-top: 50px;
+  margin: 50px auto auto auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   //grid-template-rows: repeat(11, 1fr);
@@ -12,6 +12,11 @@ body{
   grid-row-gap: 0;
   width: 85%;
 }
+.col-start-1_col-end-13{
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
 .col-start-3_row-start-2{
   grid-column-start: 3;
   grid-row-start: 2;
@@ -86,4 +91,8 @@ body{
   svg{
     align-self: center;
   }
+}
+
+input{
+  height: 48px;
 }
