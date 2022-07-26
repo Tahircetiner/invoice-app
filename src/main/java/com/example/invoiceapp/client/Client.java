@@ -7,7 +7,7 @@ import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/*
 @Entity
 public class Client {
 
@@ -24,5 +24,6 @@ public class Client {
     private String paymentTerms;
 
     /*TODO: Auslagern */
-    private ArrayList<String> itemList;
+    /*private ArrayList<String> itemList;
 }
+*/

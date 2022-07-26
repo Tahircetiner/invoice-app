@@ -2,7 +2,7 @@ package com.example.invoiceapp.invoice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+/*
 @Service
 public class InvoiceService {
 
@@ -14,4 +14,4 @@ public class InvoiceService {
         invoice.setCity(invoiceDTO.getCity());
         invoiceRepository.save(invoice);
     }
-}
+}*/
